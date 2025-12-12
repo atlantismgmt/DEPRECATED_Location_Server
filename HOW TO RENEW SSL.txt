@@ -1,0 +1,15 @@
+GO TO ZERO SSL
+
+ CREATE CERTIFICATE
+
+ FILE UPLOAD VERIFICATION
+
+ START NGINX SERVICE 
+
+ copy file (certtificate.crt -bundle and private key) to root dir (here)
+
+ then copy it to ../usr/share/nginx/html/.well-known/pki-validation
+
+ stop service nginx
+
+
